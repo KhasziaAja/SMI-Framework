@@ -1,4 +1,3 @@
-```markdown
 # SMI Framework (Social Margin Index) - v1.0 [Open Standard]
 
 [English](./README.md) | [日本語](./README.ja.md)
@@ -203,5 +202,3 @@ SMI計算エンジンの入出力インターフェースは以下の規格に�
 * **1階オープンモデル（SMI Base Standard）：** [MIT License](./LICENSE)  
   学術利用、引用、派生研究、民間システムへの組み込みは自由に許可される[cite: 1, 5]。
 * **2階コアモジュール（State OS Core Kernel）：** All Rights Reserved（限定審査制）[cite: 4, 5]
-
-```
