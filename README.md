@@ -2,103 +2,153 @@
 
 [English](./README.md) | [日本語](./README.ja.md)
 
-> **"The survival or collapse of human civilization is governed not by moral narratives or cultural values, but by the physical laws of disposable survival energy."**
+> **"The survival or collapse of human civilization is governed not by moral narratives or cultural values, but by physical constraints on real disposable metabolic margin (SMI)."**
 
-The SMI Framework is an open-source, socioeconomic engineering protocol (State OS Core Architecture) designed to quantify, forecast, and simulate the mechanisms driving ultra-low fertility, marriage market collapse, and structural societal decline in advanced capitalist economies as a thermodynamic energy balance problem[cite: 1, 2, 4].
+The SMI Framework is an open-source, socioeconomic engineering protocol (State OS Core Architecture) designed to model, diagnose, and simulate individual bioenergetic disposable margins, population replenishment dynamics, and systemic civilizational phase transitions.
 
 ---
 
 ## 1. System Philosophy & Operational Boundary Conditions
 
 ### 1.1 Philosophy: Releasing the Autonomic Shutdown
-In contemporary post-industrial and urbanized societies, collapsing fertility rates and plunging marriage rates have long been framed through moralistic or qualitative narratives: "the rise of herbivore men," "shifting youth priorities," or "insufficient childcare subsidies"[cite: 1, 2, 4]. However, despite massive deployments of symptomatic welfare transfers and public awareness initiatives, the downward trajectory of aggregate reproductive dynamics remains unbroken[cite: 1, 4].
+In contemporary post-industrial and urbanized societies, collapsing fertility rates and plunging marriage numbers are routinely dismissed through moralizing cultural narratives—such as "young generations losing romantic interest," "lifestyle diversification," or "decaying civic responsibility."
 
-*Homo sapiens*, as large mammals operating under an evolutionary K-strategy, possess hardwired homeostatic defenses[cite: 1, 2, 4]. When an individual's baseline survival margin is severely eroded, the prefrontal cortex and hypothalamic-pituitary-adrenal (HPA) axis execute an **Autonomic Shutdown**—a biological failsafe that actively cuts off long-term investments, romantic coupling, and reproductive behavior[cite: 1, 2, 4].
+The SMI Framework rejects these unquantifiable psychological rationalizations.
 
-This protocol does not advocate political dogma, moral prescriptions, or ideological doctrines[cite: 4]. Instead, it introduces a **dimensionless physical metric (Vital Monitor)** into socioeconomic systems, establishing a universal diagnostic specification for state, municipal, and institutional architectures[cite: 1, 2, 4].
+*Homo sapiens*, as large mammals operating under an evolutionary K-strategy, possess hardwired homeostatic fail-safes. When unavoidable fixed survival overhead—market rent, statutory payroll drag, lifeline utilities, and structural education costs—exceeds real disposable caloric/capital intake, the organism's prefrontal cortex locks into an **Autonomic Shutdown (reproductive and long-term investment cessation)** to protect immediate physiological survival.
 
-### 1.2 Mandatory Operational Boundary Conditions
-This model is not an unconstrained, universal abstraction applicable to all historic or tribal ecosystems. It is a deterministic physical model calibrated exclusively for modern urban capitalist social systems that satisfy the following three operational preconditions[cite: 1, 7]:
+Sub-replacement fertility is not a moral failure; it is an involuntary, biological emergency brake triggered by depleted resource margins.
 
-1. **Monetized Market Economy:** The overwhelming majority of baseline survival, housing, and reproductive costs are procured through competitive markets and settled in fiat currency (excluding pure subsistence barter economies or unpriced command ration systems)[cite: 1, 7].
-2. **Individual Autonomy & Reproductive Choice:** Individuals possess full legal, statutory, and cultural rights over marriage, singlehood, contraception, and personal lifestyle choices (excluding slave-based economies or closed patriarchal communities enforced by religious dogma)[cite: 1, 7].
-3. **Offspring as Structural Net Economic Liabilities ($P_{net} < 1.0$):** Under child-labor bans and compulsory education, dependent children represent a structural net financial liability for 18–22 years, unable to contribute labor or income to parental cash flow (excluding traditional agrarian societies where child labor yields net positive returns)[cite: 1, 2, 7].
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│               Macro-Socioeconomic System Dynamics                      │
+└──────────────────────────────────┬─────────────────────────────────────┘
+                                   │
+         ┌─────────────────────────┴─────────────────────────┐
+         ▼                                                   ▼
+【Channel A: Industrial/Market Economy】             【Channel B: Biological/Civic Margin】
+ (CPU Clock Rate / Thermal Output)                  (Power Supply Voltage / Cooling Margin)
+ · Metrics: GDP, Equity Indices, Corporate Profits  · Metrics: SMI, Net Disposable Margin, Sleep
+ · Domain: Capital Efficiency & Transaction Velocity · Domain: Neural Safety Cues & Replacement
+ · Levers: Monetary Easing, Subsidies, Corp Cuts     · Levers: Direct Excision of Fixed Overhead
+```
 
----
-
-## 2. Core Mathematical Specification (Layer 1: SMI Lite)
-
-The ratio between the disposable energy an individual (young single cohort) can capture and the non-negotiable metabolic maintenance costs imposed by society is defined as the **SMI (Social Margin Index)**[cite: 1, 4]:
-
-$$SMI = \frac{WCI}{C_{surv\_std}} = \frac{WCI}{C_{base} + C_{semi}}$$
-
-### Variable Definitions
-
-* **$WCI$ (Working Capital Income)**  
-  The median real disposable income (net take-home pay after statutory taxes and mandatory social security contributions) of prime young singles (ages 25–34) within a defined target region[cite: 1, 2, 7].
-* **$C_{surv\_std}$ (Standard Survival Cost)**  
-  The baseline fixed cost required to maintain independent, healthy participation in society—distinct from minimum welfare or poverty-line thresholds[cite: 1, 2].
-  $$C_{base} = C_{rent} + C_{food\_min} + C_{infra\_vital}$$
-  $$C_{semi} = C_{tax\_ins} + C_{depr} + C_{conn} + (\theta \cdot R_{rel})$$
-  * $C_{rent}$: Median private market rent for standard 25–30 sqm single-occupancy units[cite: 1, 2]
-  * $C_{food\_min}$: Baseline nutritional expenditures ensuring essential metabolic balances
-  * $C_{infra\_vital}$: Lifeline utility expenditures (electricity, gas, water)[cite: 4]
-  * $C_{tax\_ins}$: Marginal statutory drag (payroll taxes, health levies, and mandatory pension deductions)[cite: 1, 2]
-  * $C_{depr}$: Amortized sinking fund for domestic appliance depreciation, lease renewal fees, preventive health, and contingency reserves[cite: 1, 2]
-  * $C_{conn}$: Non-discretionary modern digital connectivity (broadband and mobile infrastructure)
-  * $\theta \cdot R_{rel}$: Relative positional drag (status-driven educational competition and peer-group signaling overhead)[cite: 4, 8]
-
-> **Methodological Exclusion of Headline CPI:**  
-> The denominator ($C_{surv\_std}$) deliberately rejects deflators based on aggregate Consumer Price Indices (Headline CPI)[cite: 1, 2]. Headline CPI metrics are diluted by technological deflation in consumer durables and non-essential goods[cite: 8]. SMI measures only the raw physical basket of **unavoidable existential fixed costs** directly sensed by the organism's survival hardware[cite: 1, 2, 8].
+### 1.2 Mandatory Operational Runtime Preconditions
+The mathematical models in this repository operate exclusively within environments satisfying three structural preconditions:
+1. **Monetized Market Economy:** Critical survival overhead is settled in fiat currency via competitive markets (excluding unpriced subsistence agrarian barters or command rationing).
+2. **Individual Autonomy & Free Will:** Individuals possess statutory and legal autonomy over marriage, reproduction, and lifestyle (excluding institutional coercion or forced reproduction).
+3. **Offspring as Net Economic Liabilities ($P_{net} < 1.0$):** Mandatory education and child labor bans ensure dependent children represent a unidirectional fixed overhead for 18–22 years.
 
 ---
 
-## 3. The 4 Phase Transition Thresholds
+## 2. Layer 1 Base Dimensionless Equation (SMI Lite Standard)
 
-Because the SMI operates as a dimensionless ratio (pure scalar multiple) that normalizes local currencies and inflation, its phase thresholds represent universal biological boundaries across borders, regimes, and eras[cite: 1, 2].
+For any discrete spatial mesh or cohort $i$ at time $t$, the **Social Margin Index (SMI)** is defined as:
 
-| SMI Metric | System State | Biological & Social Dynamics |
-| :--- | :--- | :--- |
-| **$SMI < 0.60$** | **Autonomic Shutdown (Self-Cannibalization Zone)** | Maintaining single survival requires liquidating future depreciation buffers. The neural circuitry engages an emergency brake, biologically disabling long-term investments, marriage, and reproduction (current status of East Asian metropolitan centers)[cite: 1, 2, 4]. |
-| **$1.00 \le SMI < 1.40$** | **Payload-Zero Baseline (Defensive Margin)** | Individual self-sufficiency is maintained, but excess metabolic buffer is zero. Individuals lack the operational margin to support another life, locking the system into demographic stagnation[cite: 1, 2, 4]. |
-| **$1.40 \le SMI < 2.07$** | **Reproductive Goldilocks Zone** | A stable surplus margin exceeding baseline maintenance by $\ge 40\%$ is maintained. This mathematically aligns with the OECD equivalence scale ($+0.4$ incremental household formation scale), enabling natural recovery toward replacement levels (TFR 2.07)[cite: 1, 2, 4]. |
-| **$SMI \ge 2.07$** | **Emergency Impulse Boost** | A transient high-voltage recharge regime (3–5 year time-locked intervention) designed to break deep multi-decade neural shutdown and unfreeze collective reproductive capacity[cite: 1, 2, 4]. |
+$$SMI_{i, t} = \frac{WCI_{i, t}}{C_{surv\_std}(i, t)}$$
+
+* **$SMI_{i, t} \in \mathbb{R}^+$**: Dimensionless scalar multiplier independent of currency unit or nominal inflation.
+* **$WCI_{i, t}$ (Working Capital Income)**: Median real disposable take-home pay of prime young singles (ages 25–34), net of income taxes and mandatory social contributions.
+* **$C_{surv\_std}(i, t)$ (Standard Survival Cost)**: Unavoidable baseline fixed overhead required to maintain continuous economic participation and baseline reproductive solvency:
+
+$$C_{surv\_std} = C_{base} + C_{semi}$$
+
+$$C_{base} = C_{rent} + C_{food\_min} + C_{infra\_vital}$$
+
+$$C_{semi} = C_{tax\_ins} + C_{depr} + C_{conn} + (\theta \cdot R_{rel})$$
 
 ---
 
-## 4. Transfer Function & Temporal Dynamics
+## 3. The Four Phase Transition Thresholds
 
-### 1) Non-linear TFR Response (4-Parameter Logistic Equation)
-The response of total fertility (TFR) to SMI improvements does not follow a linear path; it forms an S-shaped sigmoid curve with an asymptotic carrying-capacity ceiling ($TFR_{max}$)[cite: 1, 2]:
+The SMI metric categorizes demographic states into four distinct operational modes:
+
+```text
+   SMI Value        System Dynamic Mode            Operational State & Empirical Expression
+───────────────────────────────────────────────────────────────────────────────────────────────
+   < 0.60           Mode 0: Autonomic Shutdown     Prefrontal Bandwidth Exhaustion (Chronic Deficit)
+                                                   Extreme reproductive lockout; TFR crashes to 0.6–0.9.
+                                                   Young adults consume future health/capital to survive.
+───────────────────────────────────────────────────────────────────────────────────────────────
+   1.00             Mode 1: Break-even Subsistence Zero-Buffer Single Solvency Line
+                                                   Bare self-sustenance; zero capacity for dependent life.
+                                                   Marriage ceases; pair-bonding triggers systemic panic.
+───────────────────────────────────────────────────────────────────────────────────────────────
+   1.40             Mode 2: Goldilocks Zone        Biological Pair-Bonding & Household Formation Buffer
+                                                   Matches OECD equivalence scale (+40% surplus headroom).
+                                                   Cognitive defensive brake releases; spontaneous marriage.
+───────────────────────────────────────────────────────────────────────────────────────────────
+   ≥ 2.07           Mode 3: Expansion Vector       Demographic Replacement & Capital Surplus
+                                                   Stable self-sustaining fertility ($TFR \ge 2.10$).
+                                                   Generational succession secured without external input.
+───────────────────────────────────────────────────────────────────────────────────────────────
+```
+
+---
+
+## 4. Transfer Function & The 4-Year Biological Lag
+
+The empirical response of total fertility (TFR) to changes in SMI follows a **4-Parameter Logistic (4PL) Sigmoid Function** coupled with a **finite distributed lag impulse response ($\approx 4\text{ years}$)**:
 
 $$TFR(SMI) = TFR_{min} + \frac{TFR_{max} - TFR_{min}}{1 + \left(\frac{SMI}{SMI_0}\right)^{-k}}$$
 
-* $SMI_0 \approx 1.05$ (Inflection Point: threshold where systemic reproductive release begins)[cite: 2, 7]
-* $k \approx 4.0$ (Hill-equivalent slope sensitivity parameter)[cite: 2, 7]
-* $TFR_{min} \approx 0.65$ (Biological floor under extreme economic compression)[cite: 2, 8]
-* $TFR_{max} \approx 2.15$ (Asymptotic social carrying capacity under modern urban constraints)[cite: 2, 4]
+$$TFR_t = \sum_{\tau=3}^{5} w_\tau \cdot TFR\Big(SMI(t - \tau)\Big), \quad \mathbf{w} = \begin{bmatrix} 0.20 \\ 0.65 \\ 0.15 \end{bmatrix}$$
 
-### 2) Distributed Lag Model (5% Life-Span Constant)
-Derived from K-strategy life-history constraints, the systemic lag between environmental improvement (rising SMI) and maternal realization (rising TFR) operates over approximately 5% of adult life expectancy—manifesting as a 3-to-5-year distributed lag (peaking at $t+4$ years)[cite: 1, 2, 4]:
+```text
+t = 0 Years    t + 1 Year     t + 2 Years    t + 3 Years    t + 4 Years (Empirical Peak)
+───┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────▶
+ [SMI Recovery]  [Neural Defrost] [Mate Search]  [Pair-Bonding] [First Birth / TFR Spike]
+ (Intervention)  (Cortisol Drops)(Infrastructure)(Consolidation)(Macroeconomic Data)
+```
 
-$$TFR_t = \sum_{\tau=3}^{5} w_\tau \cdot 4PL(SMI_{t-\tau}) \quad (w_3 = 0.20, \ w_4 = 0.65, \ w_5 = 0.15)$$[cite: 1, 2]
+Across large K-strategy mammals, gestation and courtship scale as an invariant proportion ($\approx 5\%$) of adult lifespan. In humans ($70\text{--}80\text{ year adult horizon}$), $5\%$ equates to $3.5\text{--}4.0\text{ years}$. Interventions on fixed overhead today take four years to register in headline birth statistics.
 
 ---
 
-## 5. Input/Output Data Schema (JSON Schema v7)
+## 5. Domain-Specific Navigation (Academic Gateways)
 
-Data exchange with the SMI analytical engine must conform to the following schema definition[cite: 1, 2]:
+This repository provides rigorous specifications tailored across academic and engineering disciplines:
+
+* 📊 **For Econometricians & Demographers:**  
+  $\to$ [docs/SPECIFICATION_LITE.md](./docs/SPECIFICATION_LITE.md)  
+  *Detailed mathematical derivations, quasi-fixed cost algebra, and distributed lag econometric formulations.*
+* 🧬 **For Evolutionary Biologists & Ecologists:**  
+  $\to$ [docs/PHILOSOPHY_AND_DYNAMICS.md](./docs/PHILOSOPHY_AND_DYNAMICS.md)  
+  *Charnov life-history invariants, mammalian metabolic allocation trade-offs, and limits of external labor arbitrage.*
+* 🧠 **For Neuroscientists & Behavioral Economists:**  
+  $\to$ [docs/PHILOSOPHY_AND_DYNAMICS.md#3-neurobiological-substrates](./docs/PHILOSOPHY_AND_DYNAMICS.md)  
+  *Scarcity-driven cognitive bandwidth requisition, HPA-axis hyperactivity, and hormonal reproductive mute protocols.*
+* 🛠️ **For Data Scientists & Quantitative Modelers:**  
+  $\to$ [docs/BENCHMARK_AND_ISSUES.md](./docs/BENCHMARK_AND_ISSUES.md)  
+  *Public benchmark datasets (e-Stat, CPS, OECD), falsifiability criteria, and the 11 Open Technical Issues.*
+
+---
+
+## 6. Input/Output Data Schema (JSON Schema v7 Reference)
+
+Standardized JSON schema for automated ETL pipelines and municipal diagnostic engines:
 
 ```json
 {
-  "$schema": "[http://json-schema.org/draft-07/schema#](http://json-schema.org/draft-07/schema#)",
-  "title": "SMIEvaluationInput",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SMILayer1InputSchema",
   "type": "object",
-  "required": ["country_iso", "mesh_id", "year", "economic_inputs", "survival_costs"],
+  "required": [
+    "region_metadata",
+    "economic_inputs",
+    "survival_cost_components",
+    "time_series_lag_weights"
+  ],
   "properties": {
-    "country_iso": { "type": "string", "pattern": "^[A-Z]{3}$" },
-    "mesh_id": { "type": "string" },
-    "year": { "type": "integer", "minimum": 1950, "maximum": 2100 },
+    "region_metadata": {
+      "type": "object",
+      "required": ["country_iso", "mesh_id", "year"],
+      "properties": {
+        "country_iso": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "mesh_id": { "type": "string" },
+        "year": { "type": "integer", "minimum": 1950, "maximum": 2100 }
+      }
+    },
     "economic_inputs": {
       "type": "object",
       "required": ["wci_single_median", "currency_unit"],
@@ -109,7 +159,7 @@ Data exchange with the SMI analytical engine must conform to the following schem
         "currency_unit": { "type": "string" }
       }
     },
-    "survival_costs": {
+    "survival_cost_components": {
       "type": "object",
       "required": [
         "c_rent_median",
@@ -128,80 +178,71 @@ Data exchange with the SMI analytical engine must conform to the following schem
         "c_connectivity": { "type": "number", "minimum": 0 },
         "relative_cost_factor": { "type": "number", "default": 0.0, "minimum": 0.0, "maximum": 1.0 }
       }
+    },
+    "time_series_lag_weights": {
+      "type": "object",
+      "required": ["w3", "w4", "w5"],
+      "properties": {
+        "w3": { "type": "number", "default": 0.20 },
+        "w4": { "type": "number", "default": 0.65 },
+        "w5": { "type": "number", "default": 0.15 }
+      }
     }
   }
 }
-
 ```
 
 ---
 
-## 6. Academic Gateways
+## 7. Structural Extension: Layer 2 Core Protocol (Classified / Restricted)
 
-Researchers across specialized disciplines can navigate directly to their corresponding domain protocols:
+While this public repository formalizes **Layer 1 (individual bioenergetic margins and standard TFR response)**, real-world sovereign survival is also governed by localized spatial clustering, non-linear civic friction, and demographic succession timelines.
 
-* 📊 **For Econometricians & Demographers:**  
-  $\to$ [`docs/en/SPECIFICATION_LITE.md`](./docs/en/SPECIFICATION_LITE.md)  
-  Automated mapping pipelines for official statistics (SNA, US Census/CPS, OECD Family Database) and distributed lag regression specifications.
-* 🧬 **For Evolutionary Biologists & Ecologists:**  
-  $\to$ [`docs/en/PHILOSOPHY_AND_DYNAMICS.md`](./docs/en/PHILOSOPHY_AND_DYNAMICS.md)  
-  Integration with Life History Theory, Charnov dimensionless invariants, and the 5% adult lifespan reproductive gestation lag[cite: 1, 2, 8].
-* 🧠 **For Neuroscientists & Behavioral Economists:**  
-  $\to$ [`docs/en/PHILOSOPHY_AND_DYNAMICS.md`](./docs/en/PHILOSOPHY_AND_DYNAMICS.md)  
-  Scarcity bandwidth requisition, prefrontal cortex executive fatigue, and HPA-axis mediated autonomic mating cessation[cite: 1, 2, 8].
-* 📐 **For Complex Systems Theorists & Physicists:**  
-  $\to$ [`docs/en/SPECIFICATION_LITE.md`](./docs/en/SPECIFICATION_LITE.md)  
-  4PL sigmoid properties, non-linear saturation parameters, and phase transition mechanics.
-* 🛠️ **For Contributors & Red-Teamers:**  
-  $\to$ [`docs/en/BENCHMARK_AND_ISSUES.md`](./docs/en/BENCHMARK_AND_ISSUES.md)  
-  The 14-item open issue master list, falsifiability boundaries, and standard benchmark datasets.
+We maintain a restricted second tier: **SMI Core Protocol (State OS Layer 2)**.
 
----
+```text
+       ┌─────────────────────────────────────────────────────────────┐
+       │   【Global Common Layer: Open Protocol (SMI Engine)】       │
+       │     - SMI Base Equation (Dimensionless Energy Ratio)        │
+       │     - 4PL Sigmoid Response & 5% Lifespan Dynamic Lag (t+4)  │
+       │     - Standard Data Schema (SMI-OpenAPI / JSON Schema)      │
+       └──────────────────────────────┬──────────────────────────────┘
+                                      │
+              ┌───────────────────────┴───────────────────────┐
+              ▼                                               ▼
+┌───────────────────────────┐                   ┌───────────────────────────┐
+│  【Nation A: Custom OS】  │                   │  【Nation B: Custom OS】  │
+│ · Raw Data (On-Premises)  │                   │ · Raw Data (On-Premises)  │
+│ · Sovereign Plugins       │                   │ · Sovereign Plugins       │
+│   (Housing, Taxes, Family)│                   │   (Student Debt, Private) │
+│ · Fully Air-Gapped/Secret │                   │ · Fully Air-Gapped/Secret │
+└─────────────┬─────────────┘                   └─────────────┬─────────────┘
+              │                                               │
+              └───────────────────────┬───────────────────────┘
+                                      ▼
+       ┌─────────────────────────────────────────────────────────────┐
+       │      【Allied Federated Knowledge Network (Zero Raw Data)】 │
+       │  Raw administrative telemetry is 100% air-gapped locally.   │
+       │  Only anonymized systemic sensitivities are synchronized:   │
+       │   1. Policy Elasticities: Overhead Reduction % vs. ΔSMI     │
+       │   2. Coordinated Demarcation: Sovereign Failure Deadlines   │
+       └─────────────────────────────────────────────────────────────┘
+```
 
-## 7. Structural Extension: Layer 2 Core Kernel Protocol
+### Layer 2 Restricted Engine Features:
+* **Non-linear Spatial Friction Function ($\text{Toxicity}$):** Multi-variable sigmoidal expansion calculating marginal overhead explosions driven by local density ($D_{local}$), normative distance ($H_{dist}$), and spatial clustering ($C_{cluster}$).
+* **Spatial Phase Separation (Phase 1–3 / PoR):** Mathematical boundary conditions defining irreversible loss of sovereign policing and municipal authority (Point of No Return).
+* **The 20-Year Primary Failure Line:** Deterministic generational horizon models projecting defense, police, and critical infrastructure personnel collapses.
 
-The baseline model provided in this public repository (Layer 1) operates as an open standard tracking individual thermodynamic energy surplus and reproductive viability[cite: 1, 15].
+#### 🔒 Accessing Layer 2 Core Protocol
+Access to `SMI-Framework-Core` is restricted to verified research organs, municipal planners, and sovereign security analysts. Uncontrolled public distribution is restricted to prevent speculative municipal shorting and hostile geopolitical targeting.
 
-However, macroscopic sovereign survival is constrained by additional endogenous variables:  
-**"Spatial Density," "Normative/Cultural Distance," and "Non-linear Social Friction (Toxicity)"**,  
-which trigger regional phase separation (Parallel Societies / Autonomous Enclaves)[cite: 1, 15].
-
-The SMI Framework integrates these dynamics into an institutional-grade **Layer 2 Core Kernel**[cite: 1, 15]:
-
-* Closed-form non-linear spatial friction equations ($\text{Toxicity}$)
-* Spatial phase separation algorithms (Phase 1–3 / Point of No Return)
-* 20-Year Primary Sovereign Failure Line trajectory projections
-
----
-
-### 🔒 Layer 2 Core Specifications & R&D Access Request
-
-To protect sovereign stability and prevent ideological noise, the complete specification (`SPECIFICATION_CORE.md`) and private R&D issue trackers are quarantined within private repositories[cite: 11, 15].  
-Access is granted exclusively to vetted institutional analysts, academic researchers, defense organs, and qualified systems architects[cite: 11, 15].
-
-To request vetted access, submit your verification credentials via the official portal[cite: 11, 15]:
-
-👉 **[Layer 2 Core Protocol Vetting & Access Portal](https://forms.gle/tHVG5mxRhNGaQpfeA)**  
-*(※ Please note that administrative review and invitation issuance may take some lead time due to independent governance)*
-> 
-> 
+* **Repository:** `SMI-Framework-Core` (Private / Vetted Collaborators)
+* **Inquiries:** Submit identity verification via repository Security Advisories or official institutional contact.
 
 ---
 
-## 8. Technical Discussions & Call for Pull Requests
+## 8. License & Intellectual Property
 
-This protocol prioritizes architectural conceptualization and formal systems modeling[cite: 7, 8].
-
-We welcome empirical econometric backtests (using Census, Household Budget, and OECD series), mathematical parameter calibrations, and simulation implementations via GitHub Discussions and Pull Requests[cite: 7, 8]:
-
-* **Model & Math Calibration:** Formal proposals for parameter tuning and transfer functions.
-* **Data Pipelines & Normalization:** Automated extraction scripts (e-Stat, OECD, CPS) and cross-national schema mapping.
-* **Biological & Cognitive Mechanisms:** Empirical citations and clinical literature cross-referencing.
-
----
-
-## 9. License
-
-* **Layer 1 Open Standard (SMI Base):** [MIT License](./LICENSE)  
-  Academic usage, citations, quantitative research, and private commercial integration are unrestricted.
-* **Layer 2 Kernel (State OS Core):** All Rights Reserved (Restricted Institutional Access).
+* **Layer 1 Specifications (This Repository):** Released under the **[MIT License](./LICENSE)**. Free for academic citation, municipal deployment, and commercial integration.
+* **Architecture & Terminology:** All foundational concepts (*SMI*, *WCI*, *Toxicity Phase Transitions*, *State OS Architecture*) remain the intellectual property of the project architect.
