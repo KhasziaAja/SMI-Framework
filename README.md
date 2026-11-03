@@ -1,4 +1,3 @@
-```markdown
 # SMI Framework (Social Margin Index) - v1.0 [Open Standard]
 
 [English](./README.md) | [日本語](./README.ja.md)
@@ -206,5 +205,3 @@ We welcome empirical econometric backtests (using Census, Household Budget, and 
 * **Layer 1 Open Standard (SMI Base):** [MIT License](./LICENSE)  
   Academic usage, citations, quantitative research, and private commercial integration are unrestricted.
 * **Layer 2 Kernel (State OS Core):** All Rights Reserved (Restricted Institutional Access).
-
-```
