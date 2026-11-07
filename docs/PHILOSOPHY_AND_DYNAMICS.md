@@ -133,6 +133,16 @@ Chronic economic compression keeps the hypothalamic-pituitary-adrenal (HPA) axis
 
 The organism is not exercising cultural self-expression; **it has activated a conservation protocol to prevent reproductive investment during an unviable environmental state**.
 
+#### 3.3 Systemic Protective Errors: Metabolic Hoarding & Sleep Architecture Collapse
+Under chronic low-SMI conditions, the existential survival alarms registered by the basal neural architecture (sustained HPA-axis hyper-activation and hypercortisolemia) do not stop at reproductive inhibition (HPG-axis suppression leading to marriage and fertility collapse). They inevitably trigger downstream protective system errors across core homeostatic kernels:
+
+1. **Metabolic Defense (Visceral Fat Hoarding & Inverse BMI Escalation):**  
+   When the basal brain stem misinterprets structural margin exhaustion as an impending, severe ecological famine, the organism downregulates metabolic burn rates (reducing baseline thermogenesis) to enter an emergency conservation mode. Simultaneously, limited caloric input is prioritized for conversion into visceral fat stores (emergency biological buffer batteries). Consequently, population-level overweight/obesity prevalence escalates even in the absence of increased gross caloric intake.
+2. **Rest Architecture Defense (Deep Sleep Suppression via Night-Camp Vigilance):**  
+   Chronic anxiety over irreducible survival overhead sustains sympathetic nervous tone throughout the night and inverts diurnal cortisol rhythms (nocturnal waking spikes). Analogous to wild mammals bivouacking within hostile predator territory, restorative slow-wave deep sleep is structurally truncated in favor of hyper-vigilant light sleep. This induces severe chronic sleep debt, further exhausting prefrontal cognitive bandwidth and reinforcing the avoidance of high-investment life transitions.
+
+These phenomena are not individual moral failings or simple physical inactivity, but direct biological artifacts of Homo sapiens hardware executing ancient survival protocols within an artificial, zero-margin urban landscape.
+
 ---
 
 ## 4. Empirical Historical Trajectory: The Japanese Case (1990–2030)
