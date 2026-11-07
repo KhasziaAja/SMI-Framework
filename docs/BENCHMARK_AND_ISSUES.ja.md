@@ -49,7 +49,7 @@
 #### 2.3 クイック検証・再現用スクリプト (Quick Verification Script)
 本モデルの時系列伝達特性（$t+4$ 遅延および決定係数 $R^2 \approx 0.85$ の追従性）を外部の研究者・アナリストが自前環境で即座に検証できるよう、公式再現スクリプトを同梱している。
 
-* **スクリプトパス:** [`scripts/verify_japan_benchmark.py`](../../scripts/verify_japan_benchmark.py)
+* **スクリプトパス:** [`scripts/verify_japan_benchmark.py`](/scripts/verify_japan_benchmark.py)
 * **実行環境:** Python 3.9+ (`numpy`, `pandas`, `scipy`, `matplotlib` 推奨) / Google Colab 対応
 * **検証内容:** 総務省『家計調査』および厚労省『人口動態統計』の確定値に基づく実効SMI時系列とTFR遅延曲線の自動プロット、および相互相関係数（CCF）の算出。
 
