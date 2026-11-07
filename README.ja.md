@@ -130,9 +130,9 @@ t = 0 年       t + 1 年       t + 2 年       t + 3 年       t + 4 年 (主�
 * 🧬 **進化生物学 / 行動生態学の方へ:**  
   $\to$ [`docs/PHILOSOPHY_AND_DYNAMICS.ja.md`](./docs/PHILOSOPHY_AND_DYNAMICS.ja.md)  
   生活史理論（Life History Theory）、K戦略哺乳類の寿命5%ラグ、エネルギー配分制約。
-* 🧠 **脳神経科学 / 行動経済学の方へ:**  
-  $\to$ [`docs/PHILOSOPHY_AND_DYNAMICS.ja.md#3-脳神経科学的メカニズム前頭前野とhpa軸の自律停止`](./docs/PHILOSOPHY_AND_DYNAMICS.ja.md)  
-  スキャシティ（欠乏）ストレス、前頭前野の認知帯域（Bandwidth）強制徴用、HPA軸による繁殖自律停止。
+* 🧠 **脳神経科学 / 生理学・公衆衛生の方へ:**  
+  $\to$ [`docs/ja/PHILOSOPHY_AND_DYNAMICS.ja.md`](./docs/ja/PHILOSOPHY_AND_DYNAMICS.ja.md)  
+  スキャシティ（欠乏）ストレス、前頭前野の認知帯域強制徴用、HPA軸作動による繁殖停止・代謝備蓄（BMI上昇）・睡眠崩壊の連動メカニズム。
 * 🛠️ **データサイエンス / オープンIssueに参加される方へ:**  
   $\to$ [`docs/BENCHMARK_AND_ISSUES.ja.md`](./docs/BENCHMARK_AND_ISSUES.ja.md)  
   オープンIssueリスト、厳格な反証可能性基準、推奨公的データセット。
