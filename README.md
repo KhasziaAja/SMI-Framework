@@ -115,9 +115,9 @@ This repository provides rigorous specifications tailored across academic and en
 * 🧬 **For Evolutionary Biologists & Ecologists:**  
   $\to$ [docs/PHILOSOPHY_AND_DYNAMICS.md](./docs/PHILOSOPHY_AND_DYNAMICS.md)  
   *Charnov life-history invariants, mammalian metabolic allocation trade-offs, and limits of external labor arbitrage.*
-* 🧠 **For Neuroscientists & Behavioral Economists:**  
-  $\to$ [docs/PHILOSOPHY_AND_DYNAMICS.md#3-neurobiological-substrates](./docs/PHILOSOPHY_AND_DYNAMICS.md)  
-  *Scarcity-driven cognitive bandwidth requisition, HPA-axis hyperactivity, and hormonal reproductive mute protocols.*
+* 🧠 **For Neuroscientists, Physiologists & Public Health Epidemiologists:**  
+  $\to$ [`docs/en/PHILOSOPHY_AND_DYNAMICS.md`](./docs/en/PHILOSOPHY_AND_DYNAMICS.md)  
+  Scarcity bandwidth requisition, prefrontal executive fatigue, and the tripartite coupling of HPA-axis activation: reproductive shutdown, metabolic hoarding (BMI escalation), and sleep architecture collapse.
 * 🛠️ **For Data Scientists & Quantitative Modelers:**  
   $\to$ [docs/BENCHMARK_AND_ISSUES.md](./docs/BENCHMARK_AND_ISSUES.md)  
   *Public benchmark datasets (e-Stat, CPS, OECD), falsifiability criteria, and the 11 Open Technical Issues.*
