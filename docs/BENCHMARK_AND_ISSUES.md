@@ -51,7 +51,7 @@ To ensure standardized replication and backtesting, the following authoritative 
 #### 2.3 Quick Verification & Reproducibility Script
 To enable external researchers and quantitative analysts to immediately verify the model's empirical lag dynamics ($t+4$ phase delay and $R^2 \approx 0.85$ trajectory tracking) within their own environments, an official verification script is provided in the repository.
 
-* **Script Path:** [`scripts/verify_japan_benchmark.py`](../../scripts/verify_japan_benchmark.py)
+* **Script Path:** [`scripts/verify_japan_benchmark.py`](/scripts/verify_japan_benchmark.py)
 * **Execution Environment:** Python 3.9+ (requires `numpy`, `pandas`, `scipy`, `matplotlib`) / Google Colab compatible
 * **Verification Scope:** Automated cross-correlation function (CCF) execution and phase-shifted plotting utilizing unadjusted time-series tables from the Japanese Statistics Bureau (*Family Income and Expenditure Survey*) and MHLW (*Vital Statistics of Japan*).
 
