@@ -48,6 +48,13 @@ To ensure standardized replication and backtesting, the following authoritative 
 2. **Cross-Correlation Function (CCF) Validation:**  
    Compute cross-correlations between $SMI_{t-k}$ and $TFR_t$ over $k = 0 \dots 10$, verifying that the impulse response function conforms to the distributed lag vector (FIR: $w_3=0.20, w_4=0.65, w_5=0.15$) with a dominant peak at $k = 3 \sim 5$ (primary peak at $4.0$ years).
 
+#### 2.3 Quick Verification & Reproducibility Script
+To enable external researchers and quantitative analysts to immediately verify the model's empirical lag dynamics ($t+4$ phase delay and $R^2 \approx 0.85$ trajectory tracking) within their own environments, an official verification script is provided in the repository.
+
+* **Script Path:** [`scripts/verify_japan_benchmark.py`](../../scripts/verify_japan_benchmark.py)
+* **Execution Environment:** Python 3.9+ (requires `numpy`, `pandas`, `scipy`, `matplotlib`) / Google Colab compatible
+* **Verification Scope:** Automated cross-correlation function (CCF) execution and phase-shifted plotting utilizing unadjusted time-series tables from the Japanese Statistics Bureau (*Family Income and Expenditure Survey*) and MHLW (*Vital Statistics of Japan*).
+
 ---
 
 ## 3. Academic Open Issue Master List (Public Protocol Verification)
@@ -83,6 +90,11 @@ The following priority research vectors are triaged by academic domain to facili
 * [ ] **Issue #08: Global Labor Arbitrage Depletion Horizon (Point of Exhaustion Modeling)**  
   * **Current State:** Developing states undergo rapid demographic transitions as urbanization shifts offspring from net economic assets ($P_{net} > 1.0$) to structural cost burdens ($P_{net} < 1.0$).  
   * **Task:** Model TFR trajectories and rural-to-urban migration rates across primary sending nations (e.g., Vietnam, Thailand, India, Latin America) to forecast the terminal date ("Point of Exhaustion") when international surplus labor pools permanently evaporate.
+* [ ] **Issue #12: Coordinated Physiological Transient Responses under Chronic Low-SMI States (HPG-Axis Inhibition vs. HPA-Axis Hyper-Activation)**
+    * **Context & Problem:** The acute existential threat signal triggered by chronic low-SMI conditions (disposable survival margin exhaustion) simultaneously drives multiple adaptive biological systemic errors: not only the autonomic shutdown of reproductive throughput (precipitous TFR decline), but also defensive metabolic hoarding (elevated BMI / visceral adiposity inverse correlation) and sleep architecture degradation (nocturnal hyper-arousal / slow-wave sleep deprivation). These manifestations likely represent unified evolutionary survival countermeasures rather than isolated lifestyle pathologies.
+    * **Objectives & Verification Scope:** 
+      1. Cross-national validation of longitudinal SMI trends against public health surveillance panels (e.g., MHLW National Health and Nutrition Survey, CDC NHANES) to map the inverse dynamics between structural margins and population-level BMI trajectories.
+      2. Systematic literature meta-analysis and clinical aggregation of biological co-markers—specifically salivary/serum cortisol elevation, gonadotropin suppression (pulsatile GnRH / free testosterone attenuation), and heart rate variability (HRV) vagal withdrawal within chronic low-SMI cohorts.
 
 ### ■ Category C: Institutional Engineering & Implementation
 
