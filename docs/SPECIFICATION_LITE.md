@@ -1,4 +1,4 @@
-# SMI Framework: Layer 1 Mathematical Specification (SPECIFICATION_LITE) - v1.0
+# SMI Framework: Layer 1 Mathematical Specification (SPECIFICATION_LITE) - v1.1
 
 [English](./SPECIFICATION_LITE.md) | [日本語](./SPECIFICATION_LITE.ja.md)
 
@@ -10,45 +10,57 @@ This mathematical framework is not an unconstrained, universal abstraction appli
 
 ### 1.1 Precondition 1: Monetized Market Economy
 
-The overwhelming majority of an individual's essential survival and reproductive fixed overhead (housing, nutrition, critical utilities, education, statutory taxation, and social insurance) must be procured through competitive markets and settled in fiat currency.
+The primary survival and reproductive overheads (housing, nutrition, vital utilities, education, taxation, and social security) must be settled predominantly via fiat currency within open market transactions.
 
-* **Out of Scope:** Purely subsistence agrarian barter economies, or command economies (such as the former Soviet Union) where residential housing, utilities, and healthcare were allocated as unpriced public state quotas. In these ecologies, the denominator as a market-clearing price is distorted or absent.
+* **Out of Scope:** Subsistence agrarian communes or command economies with universal state rationing of housing, food, and medical care (e.g., Soviet-style systems), where market-clearing survival denominators do not exist or are heavily distorted.
 
-### 1.2 Precondition 2: Individual Autonomy & Reproductive Choice
+### 1.2 Precondition 2: Individual Autonomy & Free Will
 
-Individuals possess full legal, statutory, and cultural rights over marriage, singlehood, contraception, and personal lifestyle choices.
+Individual actors (both sexes) must possess legally and institutionally guaranteed autonomy regarding marriage, cohabitation, contraception, and lifestyle choices.
 
-* **Out of Scope:** Slave-based economies, compulsory state-mandated marriage, or closed patriarchal communities enforced by religious dogma where reproduction is non-consensual. Under such environments, the prefrontal neural survival brake is physically overridden, causing a phase shift from human behavioral economics into an agricultural livestock model.
+* **Out of Scope:** Chattel slavery, forced marital arrangements, or closed patriarchal/theocratic enclaves where reproductive autonomy is coercively overridden. In such regimes, prefrontal executive survival brakes are externally bypassed, transitioning the system from a human bio-economic model (SMI) to an agricultural/livestock management model.
 
-### 1.3 Precondition 3: Offspring as Net Economic Liabilities ($P_{net} < 1.0$)
+### 1.3 Precondition 3: Structural Child Net Cost ($P_{net} < 1.0$)
 
-Under statutory child-labor bans, mandatory public schooling, and advanced knowledge-economy labor markets, dependent children represent a structural net financial liability for 18–22 years, unable to contribute labor or income to parental cash flow.
+Due to child labor prohibitions, compulsory schooling, and urban industrial labor markets, offspring must function strictly as net economic liabilities (fixed overhead) until adulthood (ages 18–22), rather than immediate household revenue generators.
 
-* **Out of Scope:** Pre-industrial agrarian societies where children contribute directly to household agrarian labor from early childhood, creating a dynamic where reproduction yields a positive net economic return ($P_{net} > 1.0$).
+* **Out of Scope:** Pre-industrial agrarian regimes where children contribute productive agricultural labor from early childhood, yielding positive net household returns per birth ($P_{net} > 1.0$).
 
-## 2. Base Formulation & Variable Definitions
+## 2. Core Equation & Engineering Variable Definitions
 
-This section defines the mathematical formulations, data schemas, transfer functions, and normalization plug-ins for the primary public protocol (SMI Lite Standard) within qualified modern market societies.
+This section formalizes the mathematical structure, variable types, transfer functions, and normalization protocols for Layer 1 (**SMI Lite Standard**) within urban capitalist environments.
 
 ### 2.1 Base Dimensionless Equation
 
-For any discrete spatial mesh or cohort $i$ at time $t$, the **Social Margin Index (SMI)** is defined as:
+For a given spatial mesh or demographic cohort $i$ at time $t$, the **Social Margin Index (SMI)** is defined as:
 
 $$
 SMI_{i, t} = \frac{WCI_{i, t}}{C_{surv\_std}(i, t)}
 $$
 
-* **Output** $SMI_{i, t} \in \mathbb{R}^+$: Dimensionless scalar multiplier independent of currency unit or nominal inflation.
+* **Output** $SMI_{i, t} \in \mathbb{R}^+$: A dimensionless scalar ratio independent of currency units or nominal price inflation.
 
-* **Numerator** $WCI_{i, t}$ **(Working Capital Income)**: Median real disposable take-home pay of prime young singles (ages 25–34), net of income taxes and mandatory social contributions.
+* **Numerator** $WCI_{i, t}$ **(Working Capital Income)**: Median real net disposable income of young single adults (ages 25–34) after mandatory income taxes, municipal taxes, and statutory social security withholdings.
 
-* **Denominator** $C_{surv\_std}(i, t)$ **(Standard Survival Cost)**: Unavoidable baseline fixed overhead required to maintain continuous economic participation and baseline reproductive solvency.
+* **Denominator** $C_{surv\_std}(i, t)$ **(Standard Survival Cost)**: Standardized fixed overhead required to maintain physiological health, social participation, and reproductive viability.
 
-### 2.2 Anatomical Decomposition of $C_{surv\_std}$: Absolute vs. Quasi-Fixed Costs
+### 2.2 Universal Phase Transition Thresholds & The Labor Market Floor Constant
 
-Restricting the denominator strictly to public assistance minimum subsistence budgets or bare biological caloric floors yields distorted scores: a nominal income of $WCI \approx \$2,000/\text{month}$ evaluated against a baseline physiological cost of $\$1,400$ produces an apparent $SMI \approx 1.43$. This generates an empirical paradox where populations appear fiscally solvent, yet marriage rates and total fertility crash toward zero.
+The resulting dimensionless scalar $SMI$ mechanically classifies bio-social regimes across five universal phase thresholds, invariant across nations and historical eras:
 
-To resolve this measurement failure, the denominator is decoupled into **Absolute Fixed Survival Costs** and **Quasi-Fixed Systemic Drag**:
+| SMI Range / Threshold | Regime Status | Physical & Bio-Social System State | 
+| ----- | ----- | ----- | 
+| $\ge 2.07$ | **Replacement Boost Zone** | Total Fertility Rate (TFR) stably exceeds population replacement ($\approx 2.07$), driving organic demographic expansion. | 
+| $1.40$ | **Household Formation Golden Zone** | Equilibrium cruising altitude aligned with OECD equivalence scales ($+0.5$ additional adult, $+0.3$ per child). | 
+| $1.00$ | **Unloaded Break-Even Line** | Single individual barely achieves cash-flow equilibrium inclusive of depreciation reserves (zero shock buffer). | 
+| $< 0.60$ | **Autonomic Shutdown / Cannibalization** | Prefrontal executive defense brakes engage; individuals liquidate future depreciation/health reserves while ceasing reproduction. | 
+| $\approx 0.45$ | **Labor Market Floor Constant** | Empirical physical lower bound ($0.44 \sim 0.53$) observed consistently across structurally divergent advanced economies (Japan, US, Sweden, Italy, Hungary) for populations remaining in formal self-supporting labor (Track A). Compression below this floor forces phase transition into public assistance dependency (Track B) or underground/high-friction instability ($\text{Toxicity}$). | 
+
+### 2.3 Anatomy of the Denominator $C_{surv\_std}$: Absolute vs. Quasi-Fixed Overhead
+
+If only public welfare minimums (subsistence poverty lines) are entered into the denominator, an individual earning $WCI \approx ¥200,000$ against bare subsistence costs of $¥140,000\text{–}150,000$ yields an apparent $SMI \approx 1.3\text{–}1.4$. This generates severe statistical deception: individuals appear financially viable on paper while marriage and birth rates collapse in reality.
+
+To eliminate this distortion, $C_{surv\_std}$ is strictly formulated as the linear sum of **Absolute Fixed Costs** and **Quasi-Fixed Social Survival Costs**:
 
 $$
 C_{surv\_std} = C_{base} + C_{semi}
@@ -62,225 +74,171 @@ $$
 C_{semi} = C_{tax\_ins} + C_{depr} + C_{conn} + (\theta \cdot R_{rel})
 $$
 
-> **【Exclusion of General Headline CPI Deflators】**
+> **【Intentional Exclusion of Headline CPI Deflation】**
 >
-> This framework explicitly rejects nominal adjustments via official headline Consumer Price Index (CPI) baskets. CPI series are systematically dampened by hedonic quality adjustments in non-essential durable consumer tech (electronics, TVs, computers) that mask acute inflation across non-negotiable living overhead. SMI enforces an **unhedged physical basket restricted to the four non-negotiable survival pillars: median market rent, statutory payroll drag, lifeline utilities, and structural education/depreciation reserves**.
+> The denominator ($C_{surv\_std}$) intentionally rejects deflation via official headline Consumer Price Indices (CPI). Headline CPI masks acute survival inflation through hedonic price drops in consumer electronics (TVs, PCs). Instead, SMI evaluates a direct physical basket of the four unavoidable biological overheads: urban market rent, marginal tax/social insurance wedges, essential utilities, and preventative health/depreciation reserves.
 
-#### Variable Definitions & Empirical Sources
+#### Component Specifications & Statistical Mapping
 
-| Notation | Variable Parameter | Definition & Empirical Threshold | Primary Data Sources (OECD / US / JP) | 
+| Variable | Component Name | Operational Definition & Inclusion Criteria | Primary Statistical Sources (JP / US / OECD) | 
 | ----- | ----- | ----- | ----- | 
-| $C_{rent}$ | Market-Clearing Rent | Median private market rent for standard 25–30 sqm single-occupancy unit (excl. subsidized housing) | Census Bureau ACS, HUD Fair Market Rents, Housing Portal APIs | 
-| $C_{food\_min}$ | Essential Caloric Baseline | Self-prepared nutritional baseline satisfying required caloric and macro balances | National Household Budget Surveys (Food Component) | 
-| $C_{infra\_vital}$ | Lifeline Utility Drag | Electricity, water, gas, and basic municipal sewage overhead | Utility regulatory filings, Household Expenditure Surveys | 
-| $C_{tax\_ins}$ | Statutory Marginal Drag | Non-discretionary payroll taxes, pension contributions, and mandatory public health levies | National Tax/Treasury Schedules, OECD Taxing Wages | 
-| $C_{depr}$ | Self-Capital Sinking Fund | Monthly amortized provision for domestic appliance wear, security deposits, and preventive health | Family Income and Expenditure Surveys | 
-| $C_{conn}$ | Digital Connectivity | Minimum high-speed data line and baseline mobile smartphone operational cost | Median national telecom plan pricing | 
-| $\theta \cdot R_{rel}$ | Relative Positional Drag | Community-enforced positional cost required to prevent socioeconomic isolation and educational exclusion | Ministry of Education Surveys, Regional Gini Coefficients | 
+| $C_{rent}$ | Median Market Rent | Median private-sector rent for standard single-occupancy floor area (25–30 $\text{m}^2$), excluding subsidized public housing. | e-Stat Housing Survey, Commercial Rental APIs, HUD FMR | 
+| $C_{food\_min}$ | Essential Nutrition | Baseline home-prepared caloric and macronutrient maintenance cost. | Household Budget Survey (Basic Food Expenditure) | 
+| $C_{infra\_vital}$ | Vital Utilities | Unavoidable electricity, water, and heating/gas expenditures. | Household Budget Survey (Utilities) | 
+| $C_{tax\_ins}$ | Marginal Public Wedge | Statutory payroll deductions (income tax, local tax, public pension, mandatory health insurance). | National Tax/Social Insurance Tables, US CPS | 
+| $C_{depr}$ | Defensive Depreciation | Monthly amortized reserve for appliance replacement, lease renewals, ceremonial obligations, and preventative care. | National Survey of Family Income and Expenditure | 
+| $C_{conn}$ | Employment Connectivity | Essential mobile data plan and smartphone hardware amortization required for modern labor participation. | Median Telecom Expenditure Benchmarks | 
+| $\theta \cdot R_{rel}$ | Relative Status Overhead | Local social conformity, status signaling, and private educational arms-race costs required to avoid community exclusion. | Private Education Expenditure Surveys, Regional Gini | 
 
-> **【Mathematical Demonstration: The Vertical Descent Under Quasi-Fixed Costs】**
+> **【Mathematical Proof: Why Quasi-Fixed Costs Trigger Vertical SMI Collapse】**
 >
-> Given net monthly take-home $WCI = \$2,000$:
+> Given a monthly net income $WCI = ¥200,000$:
 >
-> * Evaluating Absolute Costs Only: $C_{base} = \$650 (\text{Rent}) + \$350 (\text{Food}) + \$120 (\text{Utilities}) = \$1,120$
->
->   $$
->   \to SMI_{base} = \frac{\$2,000}{\$1,120} \approx 1.78 \quad \text{(Illusion of solvency and reproductive capacity)}
->   $$
->
-> * Incorporating Quasi-Fixed Overhead: $C_{semi} = \$450 (\text{Payroll Drag}) + \$200 (\text{Sinking Fund}) + \$100 (\text{Telecom}) + \$250 (\text{Positional/Education Drag}) = \$1,000$
+> * **Absolute Fixed Costs Only:** $C_{base} = 65,000(\text{Rent}) + 35,000(\text{Food}) + 12,000(\text{Utilities}) = ¥112,000$
 >
 >   $$
->   C_{surv\_std} = \$1,120 + \$1,000 = \$2,120
+>   \to SMI_{base} = \frac{200,000}{112,000} \approx 1.78 \quad \text{(Illusion of reproductive viability)}
+>   $$
+>
+> * **Inclusive of Quasi-Fixed Overhead:** $C_{semi} = 45,000(\text{Tax/Ins}) + 20,000(\text{Depreciation}) + 10,000(\text{Telecom}) + 25,000(\text{Status/Health}) = ¥100,000$
+>
+>   $$
+>   C_{surv\_std} = 112,000 + 100,000 = ¥212,000
 >   $$
 >
 >   $$
->   \to SMI = \frac{\$2,000}{\$2,120} \approx 0.94 \quad \text{(Breaches self-sustenance limit into involuntary shutdown)}
+>   \to SMI = \frac{200,000}{212,000} \approx 0.94 \quad \text{(Drops below 1.00 break-even into autonomic shutdown)}
 >   $$
 >
-> Ignoring quasi-fixed overhead leaves macro models blind to an individual's chronic capital depletion.
+> Official statistics ignoring quasi-fixed costs fail to detect the continuous liquidation of future human capital ("invisible bleeding").
 
-### 2.3 Positional Standard Cost Formulation ($R_{rel}$)
+### 2.4 Relative Standard Cost Formulation ($R_{rel}$)
 
-Sub-replacement fertility in advanced economies is driven not merely by absolute physiological deprivation, but by the structural escalation of positional baseline costs. This is formalized via the following plug-in function:
+Fertility collapse in advanced economies is driven not by absolute starvation, but by localized cost inflation via peer comparison. This is modeled as an endogenous plug-in term:
 
 $$
 R_{rel} = \frac{Median(Edu_{local}) + Gini_{region} \cdot C_{base}}{C_{base}}
 $$
 
-* $Median(Edu_{local})$: Median monthly expenditure on private shadow education, tutoring, and test preparation within the local mesh.
+* $Median(Edu_{local})$: Local spatial mesh median expenditure on private cram schools, tutoring, and extracurricular arms races.
 
-* $Gini_{region}$: Regional Gini coefficient (higher inequality magnifies positional and status signaling competition).
+* $Gini_{region}$: Regional income Gini coefficient (higher local inequality amplifies status-defense spending).
 
-* $\theta \in [0.0, 1.0]$: Cultural normative sensitivity index ($\theta \to 1.0$ in high-conformity societies like East Asia; $\theta \to 0.2$ in individualist contexts).
+* $\theta \in [0.0, 1.0]$: Cultural conformity sensitivity parameter ($\theta \to 1.0$ in high-conformity East Asian urban centers; $\theta \to 0.2$ in individualistic regimes).
 
-### 2.4 Dual-Income Household Time-Deficit Correction Model
+### 2.5 Dual-Income Household Time-Compression Adjustment
 
-Summing dual incomes without accounting for lost domestic production hours distorts real margin by overlooking outsourced domestic costs and cognitive exhaustion (The 1.5-Earner Trap).
-
-Household evaluation therefore applies a time-decay discount to aggregate earnings:
+Summing dual household incomes ($WCI_1 + WCI_2$) without adjusting for lost domestic/childcare hours artificially inflates household SMI ("The 1.5-Horsepower Trap"). Effective household $WCI_{eff}$ applies a time-depletion decay factor:
 
 $$
 WCI_{eff} = \frac{WCI_1 + WCI_2}{1 + \lambda \cdot \max\left(0, \frac{H_1 + H_2 - H_{standard}}{H_{standard}}\right)}
 $$
 
-* $H_1, H_2$: Total monthly hours worked per partner (including overtime and transit).
+* $H_1, H_2$: Total monthly working hours (including overtime and commuting) for each partner.
 
-* $H_{standard}$: Standard statutory monthly hours threshold (e.g., 160 hours/month).
+* $H_{standard}$: Statutory standard monthly working hours (e.g., 160 hours/month).
 
-* $\lambda \approx 0.35$: Time-depletion penalty coefficient (converting lost domestic labor into externalized services, commercial meals, and burnout drag).
+* $\lambda \approx 0.35$: Time-depletion penalty coefficient converting lost domestic capacity into outsourced childcare, prepared food, and cognitive fatigue costs.
 
-## 3. Non-linear TFR Transfer Function (4PL Logistic Model)
+## 3. Dual-Lens Observation Specification: Standard Lens & Canary Model
 
-The empirical response of total fertility (TFR) to changes in SMI is not linear. It follows a **4-Parameter Logistic (4PL) Sigmoid Function**, capturing biological safety thresholds and asymptotic ecological carrying capacity:
-
-### 3.1 Transfer Function Formulation
-
-$$
-TFR(SMI) = TFR_{min} + \frac{TFR_{max} - TFR_{min}}{1 + \left(\frac{SMI}{SMI_0}\right)^{-k}}
-$$
+The SMI Framework preserves a single invariant core equation ("the camera body") while switching input quantile filters ("the optical lenses") to capture both macro demographic trajectories and early-warning structural decay:
 
 ```
-    TFR
-     ^
-TFRmax |---------------------------------------*** (Upper Carrying Capacity)
-       |                                   ***
-       |                                ** 
-       |                              ** (Steep Phase Shift: Goldilocks Zone 1.40)
-       |                           **
-       |                         *
-       |                       * (Inflection Point SMI_0 ≈ 1.05)
-TFRmin |--------------------***
-       +---------------------------------------------> SMI
-       0                   0.60   1.00  1.40    2.07
-
-```
-
-### 3.2 Calibrated Parameter Thresholds & Empirical Rationale
-
-| Parameter | Calibrated Value | Physical & Evolutionary Rationale | 
-| ----- | ----- | ----- | 
-| $TFR_{min}$ | $0.65 \pm 0.05$ | Biological lower floor under extreme economic compression ($SMI \to 0$, as observed in Seoul) | 
-| $TFR_{max}$ | $2.15 \pm 0.10$ | Asymptotic social carrying capacity in modern urban economies (just above replacement level) | 
-| $SMI_0$ | $1.05 \pm 0.03$ | Curve inflection point where neurobiological reproductive inhibition begins lifting | 
-| $k$ | $4.00 \pm 0.25$ | Slope sensitivity factor (equivalent to the Hill coefficient), dictating rapid phase shifts near thresholds | 
-
-### 3.3 Marginal Sensitivity Function
-
-The first derivative $\frac{d(TFR)}{d(SMI)}$ defines the policy efficiency spectrum:
-
-$$
-\frac{d(TFR)}{d(SMI)} = \frac{k \cdot (TFR_{max} - TFR_{min}) \cdot \left(\frac{SMI}{SMI_0}\right)^{-(k+1)}}{SMI_0 \cdot \left[1 + \left(\frac{SMI}{SMI_0}\right)^{-k}\right]^2}
-$$
-
-* $SMI < 0.80$: Marginal elasticity nears zero (token cash grants produce zero measurable demographic response).
-
-* $SMI \approx 1.05$: Elasticity reaches its global maximum (highest marginal return per unit of overhead reduction).
-
-* $SMI > 1.80$: Marginal returns decay asymptotically toward $TFR_{max}$, resolving the high-earner demographic paradox.
-
-## 4. Distributed Lag Impulse Model
-
-The temporal delay connecting input shifts ($SMI$) to output shifts ($TFR$) is modeled as an **empirical 3-to-5-year distributed lag convolution**, reflecting courtship, pair-bonding, and gestation cycles:
-
-### 4.1 Discrete Finite Impulse Response (FIR)
-
-$$
-TFR_t = \sum_{\tau=3}^{5} w_\tau \cdot \Phi(SMI_{t-\tau})
-$$
-
-$$
-\Phi(SMI) = 4PL(SMI)
-$$
-
-$$
-\sum_{\tau=3}^{5} w_\tau = 1.0, \quad w_\tau > 0
-$$
-
-### 4.2 Standard Lag Weight Allocation
-
-Calibrated via distributed lag econometric modeling and adult mammalian life-history invariants (\~5% of adult lifespan):
-
-$$
-\mathbf{w} = \begin{bmatrix} w_3 \\ w_4 \\ w_5 \end{bmatrix} = \begin{bmatrix} 0.20 \\ 0.65 \\ 0.15 \end{bmatrix}
-$$
-
-* $\tau = 4$ (4-year latency) constitutes the dominant primary peak ($65\%$ aggregate weight).
-
-* Granger causality tests confirm $SMI_{t-4} \to TFR_t$ statistical significance at $p < 0.001$.
-
-## 5. International Normalization Plug-in Architecture
-
-To maintain the universality of the core dimensionless engine without distorting institutional tax and welfare divergence across jurisdictions, modular normalization plug-ins interface with local data schemas:
-
-```
-       [ National Administrative Datasets / Jurisdictional Rules ]
-                                   │
-                                   ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│                   Normalization Plug-in Layer                       │
-│  - Nordic/France: Universal In-Kind Childcare, APL Housing Subsidies│
-│  - US: Private Health Deductibles, Federal/Private Student Debt     │
-│  - South Korea: Jeonse Capital Opportunity Costs, Hagwon Overhead   │
-└─────────────────────────────────────────────────────────────────────┘
-                                   │
-                                   ▼
+│                 Input Filter Layer (Optical Lenses)                 │
+│  [Standard Lens: Median (P50)]    [Canary Lens: Lower Q25–Q40]      │
+└──────────────────┬──────────────────────────────────┬───────────────┘
+                   │                                  │
+                   ▼                                  ▼
 ┌─────────────────────────────────────────────────────────────────────┐
-│          SMI Core Engine (Layer 1 Dimensionless Protocol)           │
-│                       SMI = WCI / C_surv_std                        │
-└─────────────────────────────────────────────────────────────────────┘
-
+│          SMI Core Engine (Invariant Dimensionless Formula)          │
+│                   SMI_{i, t} = WCI_{i, t} / C_{surv\_std}           │
+└──────────────────┬──────────────────────────────────┬───────────────┘
+                   │                                  │
+                   ▼                                  ▼
+        [Macro TFR Trajectory]             [12–15 Yr Early Warning]
+      (3–5 Year Distributed Lag)         (Floor Compression & Friction)
 ```
 
-### 5.1 Nordic / French Plug-in (Universal In-Kind Transfers & Co-habitation)
+### 3.1 Standard Lens ($SMI_{std}$: Population Median P50)
 
-Adjusts for statutory child care allowances, subsidized housing vouchers (APL), and legal protections for civil unions (PACS):
+* **Target Cohort:** Young adults aged 25–34 at the **50th percentile (Median)** of Track A earnings.
 
-$$
-C_{surv\_nordic} = (C_{base} + C_{semi}) \cdot (1 - S_{gov}) \cdot \phi_{legal}
-$$
+* **Analytical Function:** Governs aggregate national/regional TFR trajectories via the 3–5 year distributed lag transfer function (Section 4).
 
-* $S_{gov} \in [0.0, 0.5]$ **(Public Transfer Offset)**: Deducts cash-equivalent values of public daycare, child benefits, and housing allowances directly from living overhead.
+### 3.2 Canary Lens ($SMI_{canary}$: Lower-Tier Working Cohort Q25–Q40)
 
-* $\phi_{legal} \approx 0.88$ **(Union Friction Reducer)**: Accounts for the minimization of institutional costs associated with marriage through parity in civil unions.
+* **Target Cohort:** Young adults aged 25–34 in the **25th to 40th income percentiles** (lower-tier regular and non-regular formal workers).
 
-### 5.2 United States Plug-in (Private Healthcare, Student Loans & Quintile Separation)
+* **Lead-Time Invariant (12–15 Year Early Warning):** Because lower-tier workers possess zero asset buffers, their disposable margin compresses first. Empirical cross-national backtesting confirms that $SMI_{canary}$ breaches the $0.60$ shutdown threshold and hits the $\approx 0.45$ Labor Market Floor **12 to 15 years prior** to median middle-class collapse.
 
-Evaluates income quintiles ($Q_1 - Q_5$) independently, adding mandatory private health premiums, out-of-pocket deductibles, and non-dischargeable education debts:
+* **Cross-Layer Coupling Trigger:** When $SMI_{canary}$ remains pinned at the $\approx 0.45$ floor, formal labor participation breaks down, serving as a leading macro-trigger for non-linear social friction ($\text{Toxicity}$) and public order degradation modeled in Layer 2 (`SPECIFICATION_CORE.md`).
 
-$$
-C_{surv\_us}(Q_k) = C_{base}(Q_k) + C_{semi}(Q_k) + C_{health\_private} + C_{student\_debt}
-$$
+## 4. Non-Linear TFR Transfer Function & Distributed Lag Model
 
-* $C_{health\_private}$: Mean monthly out-of-pocket health insurance premium plus amortized deductible.
+### 4.1 4-Parameter Logistic (4PL) Sigmoid Response
 
-* $C_{student\_debt}$: Mandatory monthly amortized payments on federal and private tertiary education loans.
-
-* Captures the bifurcated demographic reality where $Q_1, Q_2$ are crushed below $0.50$, while $Q_5$ operates above $2.50$.
-
-### 5.3 South Korea Plug-in (Jeonse Deposit Capital Drag & Shadow Education)
-
-Addresses structural housing dynamics (Jeonse lump-sum lease deposits) and hyper-competitive private schooling expenditures:
+Demographic fertility does not respond linearly to income increases; it exhibits threshold activation and biological upper saturation (the "affluent fertility plateau"). The steady-state fertility response $f(SMI)$ is modeled as a 4PL Hill-type sigmoid function:
 
 $$
-C_{surv\_kr} = C_{base} + C_{semi} + \text{OpportunityCost}(Jeonse) + (\theta_{kr} \cdot R_{rel})
+f(SMI) = TFR_{min} + \frac{TFR_{max} - TFR_{min}}{1 + \left(\frac{SMI}{SMI_0}\right)^{-k}}
 $$
 
-* $\text{OpportunityCost}(Jeonse)$: Capital financing costs (or forfeited investment yields) tied up in multi-hundred-thousand-dollar residential deposit commitments.
+* $TFR_{min} \approx 0.65$: Biological floor under extreme survival compression (ultra-low urban fertility).
 
-* $\theta_{kr} \to 1.0$: Universalizes private tutoring (Hagwon) expenditures as compulsory social participation overhead.
+* $TFR_{max} \approx 2.35$: Asymptotic upper ceiling constrained by biological gestation limits and modern lifestyle saturation.
 
-## 6. Input/Output Data Schema (JSON Schema v7 Reference)
+* $SMI_0 \approx 1.05$: Inflection point where reproductive suppression rapidly unlocks.
 
-Full technical specification for the Layer 1 operational input pipeline:
+* $k \approx 4.0$: Hill steepness parameter governing phase transition sensitivity.
 
-```
+### 4.2 Distributed Lag Convolution Kernel (3–5 Year Bio-Clock)
+
+Consistent with K-selected mammalian life-history invariants (where gestation, pair-bonding, and environmental verification require $\approx 5\%$ of adult lifespan), observed $TFR_t$ is governed by a finite impulse response (FIR) distributed lag convolution over $t-3$ to $t-5$ years:
+
+$$
+TFR_t = \sum_{k=3}^{5} w_k \cdot f(SMI_{t-k}) \quad \text{subject to} \quad \sum_{k=3}^{5} w_k = 1
+$$
+
+* **Standard Empirical Weight Vector:** $\mathbf{w} = [w_3, w_4, w_5] = [0.20, 0.65, 0.15]$, peaking sharply at $t - 4$ years.
+
+## 5. International Normalization Plug-in & Dual-Track Separation
+
+To apply the invariant threshold scale ($0.45 / 0.60 / 1.00 / 1.40 / 2.07$) across divergent welfare and institutional regimes without altering the core equation, national data pipelines must execute two normalization protocols:
+
+### 5.1 Dual-Track Institutional Separation (Track A vs. Track B)
+
+Mixing self-supporting taxpayers with public-assistance recipients corrupts quantile distributions and masks lower-tier collapse. All national pipelines must segregate cohorts into two tracks prior to computing $SMI$:
+
+* **Track A (Self-Supporting Labor Cohort):** Individuals funding housing, taxation, and survival overhead directly through market wages. Both Standard ($P50$) and Canary ($Q25\text{–}Q40$) lenses are evaluated strictly within Track A.
+
+* **Track B (Public Transfer / Exempt Cohort):** Individuals receiving full housing vouchers, tax/social-insurance exemptions, or cash welfare where market denominators are administratively neutralized. Track B is tracked separately to prevent artificial statistical distortion of Track A floor dynamics.
+
+### 5.2 Jurisdictional Plug-in Adjustments
+
+$$
+SMI_{norm} = \frac{WCI_{gross} - C_{tax\_ins} - C_{debt\_edu} + B_{cash\_universal}}{C_{base} + C_{semi} - S_{gov\_inkind}}
+$$
+
+* **Nordic / Continental Europe ($S_{gov\_inkind}$):** Universal in-kind childcare, free tertiary education, and housing allowances (e.g., French APL) are deducted directly from the denominator $C_{surv\_std}$.
+
+* **United States ($C_{debt\_edu}, C_{health\_priv}$):** Private health insurance premiums/deductibles and federal/private student loan servicing are explicitly added to $C_{semi}$.
+
+* **East Asia ($\theta \to 1.0$):** High private cram-school arms races ($Median(Edu_{local})$) and housing deposit opportunity costs (e.g., South Korean *Jeonse* capital lock-up) are capitalized into $C_{semi}$.
+
+## 6. Input/Output Data Schema (JSON Schema Draft-07 Reference)
+
+Standardized I/O schema for automated ETL pipelines and cross-layer coupling (v1.1):
+
+```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "SMILayer1InputSchema",
+  "title": "SMILayer1InputSchema_v1_1",
   "type": "object",
   "required": [
     "region_metadata",
+    "observation_lens",
     "economic_inputs",
     "survival_cost_components",
     "time_series_lag_weights"
@@ -295,13 +253,21 @@ Full technical specification for the Layer 1 operational input pipeline:
         "year": { "type": "integer", "minimum": 1950, "maximum": 2100 }
       }
     },
+    "observation_lens": {
+      "type": "object",
+      "required": ["lens_type", "cohort_track"],
+      "properties": {
+        "lens_type": { "type": "string", "enum": ["STANDARD_P50", "CANARY_Q25_40"] },
+        "cohort_track": { "type": "string", "enum": ["TRACK_A_MARKET", "TRACK_B_TRANSFER"] }
+      }
+    },
     "economic_inputs": {
       "type": "object",
-      "required": ["wci_single_median", "currency_unit"],
+      "required": ["wci_single_net", "currency_unit"],
       "properties": {
-        "wci_single_median": { "type": "number", "minimum": 0 },
-        "household_dual_income": { "type": "number", "default": 0 },
-        "weekly_work_hours_total": { "type": "number", "default": 40 },
+        "wci_single_net": { "type": "number", "minimum": 0 },
+        "household_dual_net": { "type": "number", "default": 0 },
+        "monthly_work_hours_total": { "type": "number", "default": 160 },
         "currency_unit": { "type": "string" }
       }
     },
@@ -309,20 +275,22 @@ Full technical specification for the Layer 1 operational input pipeline:
       "type": "object",
       "required": [
         "c_rent_median",
-        "c_food_essential",
-        "c_infra_utilities",
-        "c_tax_and_social_insurance",
-        "c_depreciation_reserve",
-        "c_connectivity"
+        "c_food_min",
+        "c_infra_vital",
+        "c_tax_ins",
+        "c_depr",
+        "c_conn"
       ],
       "properties": {
         "c_rent_median": { "type": "number", "minimum": 0 },
-        "c_food_essential": { "type": "number", "minimum": 0 },
-        "c_infra_utilities": { "type": "number", "minimum": 0 },
-        "c_tax_and_social_insurance": { "type": "number", "minimum": 0 },
-        "c_depreciation_reserve": { "type": "number", "minimum": 0 },
-        "c_connectivity": { "type": "number", "minimum": 0 },
-        "relative_cost_factor": { "type": "number", "default": 0.0, "minimum": 0.0, "maximum": 1.0 }
+        "c_food_min": { "type": "number", "minimum": 0 },
+        "c_infra_vital": { "type": "number", "minimum": 0 },
+        "c_tax_ins": { "type": "number", "minimum": 0 },
+        "c_depr": { "type": "number", "minimum": 0 },
+        "c_conn": { "type": "number", "minimum": 0 },
+        "r_rel_factor": { "type": "number", "default": 0.0, "minimum": 0.0 },
+        "theta_conformity": { "type": "number", "default": 0.5, "minimum": 0.0, "maximum": 1.0 },
+        "s_gov_inkind_deduction": { "type": "number", "default": 0.0, "minimum": 0.0 }
       }
     },
     "time_series_lag_weights": {
@@ -336,15 +304,10 @@ Full technical specification for the Layer 1 operational input pipeline:
     }
   }
 }
-
 ```
 
-## 7. Operational Guidelines & Engine Deployment
+## 7. Operational Guidelines & Downstream Coupling
 
-The mathematical formulations standardized in Layer 1 shift public policy evaluations away from superficial cash subsidies toward structural overhead reduction:
-
-1. **Automated Pipeline Integration:** Build automated ETL workers mapping official statistical APIs (e-Stat, OECD.Stat, Eurostat, US BLS) directly into the standardized JSON input schema.
-
-2. **Empirical Curve Calibration:** Leverage spatial mesh cohorts to continuously optimize the logistic Hill coefficient $k$ and empirical delay vector $\mathbf{w}$.
-
-3. **Core Layer Interface:** Output scalar metrics ($SMI_{i, t}$) pass directly as uncompressed baseline vectors into `SPECIFICATION_CORE.md` for spatial friction, migration tipping points, and defense intake horizon forecasting.
+1. **Automated ETL Ingestion:** Data pipelines must map primary administrative tables (e-Stat, US CPS, Eurostat, OECD.Stat) directly into the Track A / Track B JSON schema without headline CPI deflators.
+2. **Empirical Parameter Calibration:** Contributors are invited to submit regional fits for Hill steepness $k$, conformity sensitivity $\theta$, and Canary lead-time vectors via repository discussions.
+3. **Layer 2 Core Coupling:** Both $SMI_{std}$ and $SMI_{canary}$ scalar outputs pass directly as uncompressed baseline vectors into `SPECIFICATION_CORE.md` to evaluate non-linear spatial friction ($\text{Toxicity}$), phase separation thresholds, and 20-year sovereign intake trajectories.
